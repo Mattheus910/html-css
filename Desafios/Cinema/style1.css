@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+:root {
+    --cor0:#B30015;
+    --cor1:#FF4136;
+    --cor2:#333333;
+    --fonte-holly:'Holtwood One SC', serif;
+    --fonte-padrao: arial, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: var(--cor0);
+    height: 50px; 
+    justify-content: center; 
+    align-items: center;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.349);
+    color: white;
+}
+
+h1 {
+    font-family: var(--fonte-holly);
+    text-align: center;
+    margin: 10px;
+}
+
+body {
+    background-color: black;
+    margin: auto;
+    width: auto;
+
+}
+
+main {
+    border: solid 3px red;
+    margin: auto;
+}
+
+.conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% 100%;
+    border: solid 3px white;
+    gap: 300px;
+}
+
+.caixa {
+    border: solid 3px blue;
+    margin: 100px;
+}
