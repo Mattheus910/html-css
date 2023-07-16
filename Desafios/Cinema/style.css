@@ -2,12 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 
-
-* {
-    margin: 0px;
-    padding: 0px
-}
-
 :root {
     --cor0:#B30015;
     --cor1:#FF4136;
@@ -28,35 +22,5 @@ header {
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.349);
 }
 
-main {
-    display: grid;
-    justify-content: center;
-    margin: auto;
-    grid-template-columns: 100px 100px;
-    gap: 300px;
-    min-width: 300px;
-    max-width: 1000px;
-    border: solid red;
-}
 
-div {
-    width: 300px;
-    height: 300px;
-    border: solid #B30015 1px;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-family: var(--fonte-holly);
-    text-align: center;
-    margin: 10px;
-}
-
-p {
-    font-family: var(--fonte-padrao);
-    margin: 5px;
-    text-align: justify;
-    padding: 10px;
-}
 
