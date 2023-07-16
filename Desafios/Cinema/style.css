@@ -10,6 +10,15 @@
     --fonte-padrao: arial, sans-serif;
 }
 
+
+
+body {
+    margin: 0;
+    min-width: 560px;
+    justify-content: center;
+    background-color: black;
+}
+
 header {
     display: flex;
     background-color: var(--cor0);
@@ -20,6 +29,46 @@ header {
     font-size: xx-large;
     color: white;
     text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.349);
+    margin: 0;
+}
+
+
+
+.caixa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.div {
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    margin: 15px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--fonte-holly);
+}
+
+p {
+    text-align: justify;
+    font-weight: 700;
+}
+
+img {
+    width: 100%;
+}
+
+video {
+    width: 250px;
+    height: 250px;
 }
 
 
